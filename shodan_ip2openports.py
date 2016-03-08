@@ -11,7 +11,6 @@ if len(sys.argv) == 1:
 
 input_ip = ' '.join(sys.argv[1:])
 
-print input_ip
 try:
 	host_info = api.host(input_ip)
  
