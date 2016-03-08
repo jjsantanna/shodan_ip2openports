@@ -2,11 +2,12 @@
 This is a simple script that uses the Shodan.io API to get the open ports (output) of a specific IP address (input).
 
 Requirements:
-1) Create an account on Shodan.io and copy your API key
-2) Install the Shodan API (python) 
+* Create an account on Shodan.io and copy your API key;
+* Install the Shodan API (python) 
   $ sudo pip install shodan 
   or
   $ sudo easy_install shodan
+
 
 Runing the script:
 python shoda_ip2openports.py <IP_address>
